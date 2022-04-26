@@ -38,7 +38,7 @@ jobs:
       - name: Prepare deploy
         run: |
           mkdir deploy
-          cp -r lime/docs/* deploy
+          cp -r lime/docs/pages/* deploy
           cp CNAME deploy/CNAME
 
       - name: Deploy to GitHub Pages
