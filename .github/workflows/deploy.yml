@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Haxe dependencies
         run: |
-          haxelib install dox --quiet
+          haxelib install dox 1.4.0 --quiet
           haxelib dev lime lime
 
       - name: Build docs
